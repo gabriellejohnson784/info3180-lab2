@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile">
+    <div class="profheader">
+        <img src="{{ url_for('static', filename='running.jpg') }}" alt="My picture running">
+        <h1>Gabrielle Johnson</h1>
+        <p>@gabby</p>
+        <p>Kingston, Jamaica</p>
+        <p>Joined {{date}}</p> 
+    </div>
+
+    <div class="bio">
+        <p>I like coding, football, and baking!</p>
+    </div>
+
+    <div class="info">
+        <div class="infonum">
+            <span class="number">50</span>
+            <span class="name">Posts</span>
+        </div>
+        <div class="infomum">
+            <span class="number">100</span>
+            <span class="name">Following</span>
+        </div>
+        <div class="infonum">
+            <span class="number">100</span>
+            <span class="name">Followers</span>
+        </div>
+    </div>
+
+    <button id="fbutton">Follow</button>
+</div>
+{% endblock %}

@@ -1,3 +1,95 @@
 body {
     padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    
+}
+/*profile header*/
+.profheader {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    align-items: center;
+    /*text-align: center;*/
+    justify-content: center;
+    background-color: #5e971d;
+    padding: 50px;
+}
+
+.profheader h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+}
+
+.profheader p{
+
+    color: white;
+}
+
+.profheader img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 100px; 
+    height: 100px;
+}
+
+.bio{
+    justify-content: center;
+    display:flex;
+    color: rgb(154, 150, 150);
+    padding: 20px;
+
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /*flex-direction: column;*/
+    align-items: center;
+}
+
+.info p {
+    color: rgb(154, 150, 150);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.infonum{
+    text-align: center;
+}
+
+.name {
+    font-size: 15px;
+    color: hsl(0, 0%, 59%);
+}
+
+.number {
+    display: block;
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+}
+
+
+#fbutton{
+    padding: 10px 20px;
+    background-color: hwb(128 13% 47%);
+    color: white;
+    border: none;
+    border-radius: 10%;
+    
+
 }
